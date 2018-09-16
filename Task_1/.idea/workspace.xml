@@ -42,33 +42,33 @@
     <session id="173090891">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="py" value="3479" />
+          <entry key="py" value="4368" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3479" />
+          <entry key="Python" value="4368" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -90,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Numbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
+            <state relative-caret-position="1350">
               <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
               <folding>
                 <marker date="1537011680866" expanded="true" signature="148:633" ph="..." />
@@ -101,10 +101,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Probability.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+              <folding>
+                <marker date="1537090756887" expanded="true" signature="33:34" ph="..." />
+                <marker date="1537090756887" expanded="true" signature="33:53" ph="..." />
+                <marker date="1537090756887" expanded="true" signature="420:737" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sorting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="1185">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <marker date="1537086213992" expanded="true" signature="127:217" ph="..." />
                 <marker date="1537086213992" expanded="true" signature="182:183" ph="..." />
@@ -131,6 +145,7 @@
         <option value="$PROJECT_DIR$/FacetedSearch.py" />
         <option value="$PROJECT_DIR$/Numbers.py" />
         <option value="$PROJECT_DIR$/Sorting.py" />
+        <option value="$PROJECT_DIR$/Probability.py" />
       </list>
     </option>
   </component>
@@ -174,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Sorting">
+  <component name="RunManager" selected="Python.Probability">
     <configuration name="FacetedSearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Task_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,6 +232,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Probability" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Task_1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Probability.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Sorting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Task_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,9 +278,11 @@
       <item itemvalue="Python.FacetedSearch" />
       <item itemvalue="Python.Numbers" />
       <item itemvalue="Python.Sorting" />
+      <item itemvalue="Python.Probability" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Probability" />
         <item itemvalue="Python.Sorting" />
         <item itemvalue="Python.Numbers" />
         <item itemvalue="Python.FacetedSearch" />
@@ -266,9 +304,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,7 +340,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Numbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
+        <state relative-caret-position="1350">
           <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
           <folding>
             <marker date="1537011680866" expanded="true" signature="148:633" ph="..." />
@@ -314,11 +351,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="1185">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <marker date="1537086213992" expanded="true" signature="127:217" ph="..." />
             <marker date="1537086213992" expanded="true" signature="182:183" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Probability.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <marker date="1537090756887" expanded="true" signature="33:34" ph="..." />
+            <marker date="1537090756887" expanded="true" signature="33:53" ph="..." />
+            <marker date="1537090756887" expanded="true" signature="420:737" ph="..." />
           </folding>
         </state>
       </provider>
