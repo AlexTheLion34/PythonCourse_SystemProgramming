@@ -1,12 +1,12 @@
 import openpyxl
 import matplotlib.pyplot as plt
 import numpy as np
+from leats_square_method.FillTable import *
 
 
 class MakeGraph:
 
-    __wb = openpyxl.load_workbook(filename="/Users/AlexTheLion/Desktop/PythonCourse_SystemProgramming/Task_2/"
-                                           "table.xlsx")
+    __wb = openpyxl.load_workbook(filename=FillTable.table_file_path)
 
     __sheet = __wb.active
 
@@ -27,7 +27,7 @@ class MakeGraph:
         self.__x_values = [v[0].value for v in self.__sheet['A2:A15']]
         self.__y_values = [v[0].value for v in self.__sheet['B2:B15']]
 
-    def sum_x_and_y(self):
+    def __sum_x_and_y(self):
         for x in self.__x_values:
             self.__sum_x += x
         for y in self.__y_values:
@@ -35,7 +35,7 @@ class MakeGraph:
         for i in range(len(self.__x_values)):
             self.__sum_xy += self.__y_values[i] * self.__x_values[i]
 
-    def sum_squares(self):
+    def __sum_squares(self):
         for x in self.__x_values:
             self.__sum_square_x += x ** 2
         for y in self.__y_values:
@@ -43,8 +43,8 @@ class MakeGraph:
 
     def __approximate(self):
         self.__receive_data()
-        self.sum_x_and_y()
-        self.sum_squares()
+        self.__sum_x_and_y()
+        self.__sum_squares()
         self.__A = (len(self.__x_values) * self.__sum_xy - (self.__sum_x * self.__sum_y)) / \
                    (len(self.__x_values) * self.__sum_square_x - (self.__sum_x ** 2))
         self.__B = (self.__sum_y - self.__A * self.__sum_x) / len(self.__x_values)
