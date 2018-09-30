@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5775060a-3ef7-4927-934d-1338c7a23379" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/leats_square_method/MakeGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/leats_square_method/MakeGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restoring_data/MakeTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/AlexTheLion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/AlexTheLion.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leats_square_method/FillTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/least_square_method/FillTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leats_square_method/MakeGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/least_square_method/MakeGraph.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,68 +18,116 @@
     <session id="-23422613">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="png" value="3" />
-          <entry key="py" value="7" />
+          <entry key="png" value="8" />
+          <entry key="py" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="3" />
+          <entry key="Image" value="8" />
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2712" />
+          <entry key="dummy" value="1" />
+          <entry key="py" value="5241" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2712" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="5241" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leats_square_method/MakeGraph.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restoring_data/MakeTable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="510">
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1537805581257" expanded="true" signature="342:343" ph="..." />
-                <marker date="1537805581257" expanded="true" signature="342:392" ph="..." />
-                <marker date="1537805581257" expanded="true" signature="866:1024" ph="..." />
+                <element signature="e#0#43#0" expanded="true" />
+                <marker date="1538329087822" expanded="true" signature="79:80" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leats_square_method/FillTable.py">
+        <entry file="file://$PROJECT_DIR$/restoring_data/Vinification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="615">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+                <marker date="1538329099420" expanded="true" signature="217:218" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/least_square_method/FillTable.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1537804921070" expanded="true" signature="175:176" ph="..." />
-                <marker date="1537804921070" expanded="true" signature="175:228" ph="..." />
+                <marker date="1538328850295" expanded="true" signature="175:176" ph="..." />
+                <marker date="1538328850295" expanded="true" signature="175:228" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/least_square_method/MakeGraph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1538328657200" expanded="true" signature="342:343" ph="..." />
+                <marker date="1538328657200" expanded="true" signature="342:392" ph="..." />
+                <marker date="1538328657200" expanded="true" signature="866:1024" ph="..." />
               </folding>
             </state>
           </provider>
@@ -96,9 +148,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leats_square_method/FillTable.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/leats_square_method/MakeGraph.py" />
+        <option value="$PROJECT_DIR$/leats_square_method/FillTable.py" />
+        <option value="$PROJECT_DIR$/restoring_data/vinification.py" />
+        <option value="$PROJECT_DIR$/restoring_data/Aproximation.py" />
+        <option value="$PROJECT_DIR$/least_square_method/FillTable.py" />
+        <option value="$PROJECT_DIR$/restoring_data/MakeTable.py" />
+        <option value="$PROJECT_DIR$/testing/Test.py" />
+        <option value="$PROJECT_DIR$/restoring_data/Vinification.py" />
       </list>
     </option>
   </component>
@@ -120,11 +178,6 @@
               <item name="Task_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Task_2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Task_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Task_2" type="462c0819:PsiDirectoryNode" />
-              <item name="leats_square_method" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -143,7 +196,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MakeGraph">
+  <component name="RunManager" selected="Python.Test">
+    <configuration name="FillTable (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Task_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/least_square_method" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/least_square_method/FillTable.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="FillTable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Task_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MakeGraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MakeTable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Task_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,11 +247,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leats_square_method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/restoring_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leats_square_method/MakeGraph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/restoring_data/MakeTable.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Task_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testing/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Vinification" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Task_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/restoring_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/restoring_data/Vinification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +304,17 @@
     </configuration>
     <list>
       <item itemvalue="Python.FillTable" />
-      <item itemvalue="Python.MakeGraph" />
+      <item itemvalue="Python.MakeTable" />
+      <item itemvalue="Python.Vinification" />
+      <item itemvalue="Python.Test" />
+      <item itemvalue="Python.FillTable (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MakeGraph" />
+        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.FillTable (1)" />
+        <item itemvalue="Python.Vinification" />
+        <item itemvalue="Python.MakeTable" />
         <item itemvalue="Python.FillTable" />
       </list>
     </recent_temporary>
@@ -212,14 +334,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,7 +359,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/leats_square_method/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/graph.png" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -249,30 +369,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leats_square_method/FillTable.py">
+    <entry file="file://$PROJECT_DIR$/restoring_data/Aproximation.py" />
+    <entry file="file://$PROJECT_DIR$/testing/Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1537804921070" expanded="true" signature="175:176" ph="..." />
-            <marker date="1537804921070" expanded="true" signature="175:228" ph="..." />
+            <element signature="e#0#51#0" expanded="true" />
+            <marker date="1538329099420" expanded="true" signature="217:218" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leats_square_method/MakeGraph.py">
+    <entry file="file://$PROJECT_DIR$/least_square_method/FillTable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1537805581257" expanded="true" signature="342:343" ph="..." />
-            <marker date="1537805581257" expanded="true" signature="342:392" ph="..." />
-            <marker date="1537805581257" expanded="true" signature="866:1024" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1538328850295" expanded="true" signature="175:176" ph="..." />
+            <marker date="1538328850295" expanded="true" signature="175:228" ph="..." />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/least_square_method/MakeGraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1538328657200" expanded="true" signature="342:343" ph="..." />
+            <marker date="1538328657200" expanded="true" signature="342:392" ph="..." />
+            <marker date="1538328657200" expanded="true" signature="866:1024" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restoring_data/MakeTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1538329087822" expanded="true" signature="79:80" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restoring_data/Vinification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

@@ -19,7 +19,7 @@ class FillTable:
     def fill_table(self):
         print("Введите дипазаон координат")
         min_x = input("Минимальный X: ")
-        max_x = input("Маскимальный X: ")
+        max_x = input("Максимальный X: ")
         range_y = int(input("Введите разброс для Y: "))
         delta_x = (int(max_x) - int(min_x)) / self.__calculate_num_of_coordinates()
         current_element = float(min_x)

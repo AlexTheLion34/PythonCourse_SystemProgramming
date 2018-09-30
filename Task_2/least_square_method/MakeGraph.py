@@ -1,7 +1,7 @@
 import openpyxl
 import matplotlib.pyplot as plt
 import numpy as np
-from leats_square_method.FillTable import *
+from least_square_method.FillTable import *
 
 
 class MakeGraph:
