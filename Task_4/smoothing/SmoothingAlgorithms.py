@@ -2,9 +2,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import random
 
+# Список со значениями
 main_list = [int(random.random() * 40) for _ in range(50)]
 
 
+# Сглаживание методом "завтра как вчера"
 def tomorrow_like_yesterday():
     copy_main_list = main_list
     new_array = [0 for _ in range(len(copy_main_list))]
@@ -15,6 +17,7 @@ def tomorrow_like_yesterday():
     return new_array
 
 
+# Сглаживание методом скользящего среднего
 def simple_moving_average():
     new_array = main_list.copy()
     window_size = 5
@@ -31,6 +34,7 @@ def simple_moving_average():
     return new_array
 
 
+# Сглаживание методом взвешенного среднего
 def simple_moving_average_weight():
     new_array = main_list.copy()
     window_size = 5
@@ -50,6 +54,7 @@ def simple_moving_average_weight():
     return new_array
 
 
+# Экспоненциальное сглаживание
 def exponential():
     copy_main_list = main_list
     new_array = [0 for _ in range(len(copy_main_list))]
