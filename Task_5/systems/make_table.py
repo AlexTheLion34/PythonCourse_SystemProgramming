@@ -1,8 +1,6 @@
 from openpyxl import Workbook
 from openpyxl.styles import Alignment
-import matplotlib.pyplot as plt
-
-
+from openpyxl.chart import Reference, Series, ScatterChart
 import math
 
 
@@ -50,23 +48,33 @@ def make_table():
         ws['E' + str(i + 3)] = (anything[i])[0]
         ws['F' + str(i + 3)] = (anything[i])[1]
 
-    plt.subplot(1, 3, 1)
-    x = [l[0] for l in linear]
-    y = [l[1] for l in linear]
-    plt.title('Linear')
-    plt.plot(x, y)
-    plt.subplot(1, 3, 2)
-    x = [l[0] for l in dynamic]
-    y = [l[1] for l in dynamic]
-    plt.plot(x, y)
-    plt.title('Dynamic')
-    plt.subplot(1, 3, 3)
-    x = [l[0] for l in anything]
-    y = [l[1] for l in anything]
-    plt.plot(x, y)
-    plt.title('Anything')
-    plt.savefig("/Users/AlexTheLion/Desktop/PythonCourse_SystemProgramming/Task_5/systems/systems.png", dpi=150)
+    chart_l = ScatterChart()
+    chart_l.title = "Linear"
+    chart_l.style = 13
+    x_values = Reference(ws, min_col=1, min_row=3, max_row=7)
+    y_values = Reference(ws, min_col=2, min_row=3, max_row=7)
+    series = Series(y_values, x_values, title_from_data=True)
+    chart_l.series.append(series)
 
+    chart_d = ScatterChart()
+    chart_d.title = "Dynamic"
+    chart_d.style = 13
+    x_values = Reference(ws, min_col=3, min_row=3, max_row=7)
+    y_values = Reference(ws, min_col=4, min_row=3, max_row=7)
+    series = Series(y_values, x_values, title_from_data=True)
+    chart_d.series.append(series)
+
+    chart_a = ScatterChart()
+    chart_a.title = "Anything"
+    chart_a.style = 13
+    x_values = Reference(ws, min_col=5, min_row=3, max_row=7)
+    y_values = Reference(ws, min_col=6, min_row=3, max_row=7)
+    series = Series(y_values, x_values, title_from_data=True)
+    chart_a.series.append(series)
+
+    ws.add_chart(chart_l, 'A9')
+    ws.add_chart(chart_d, 'J9')
+    ws.add_chart(chart_a, 'S9')
     wb.save(table_file_path)
 
 
